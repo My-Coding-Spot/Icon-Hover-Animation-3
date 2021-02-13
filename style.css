@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+
+.container {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    font-size: 37px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.box:nth-child(1) {
+    background: #28498a;
+}
+
+.box:nth-child(2) {
+    background: #d379fd;
+}
+
+.box:nth-child(3) {
+    background: #ff0000;
+}
+
+.box:nth-child(4) {
+    background: #15b5ff;
+}
+
+.box i {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box:hover {
+    background: none;
+    color: #ffffff;
+    transform: scale(1.8);
+}
